@@ -79,9 +79,6 @@ function showSkills(skills) {
 
 
 
-fetchData().then(data => {
-    showSkills(data);
-});
 
 
 
