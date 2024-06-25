@@ -534,7 +534,7 @@ header .navbar ul li a {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
+  background: #d9e6e2;
   min-height: 80vh;
 }
 .education .qoute {
@@ -932,7 +932,7 @@ header .navbar ul li a {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: #d9e6e2;
   min-height: 60vh;
 }
 .contact .container {
@@ -993,7 +993,7 @@ form .message textarea {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
   border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  background: #d9e6e2;
 }
 .field input::placeholder,
 .message textarea::placeholder {
