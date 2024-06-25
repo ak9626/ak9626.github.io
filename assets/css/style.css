@@ -221,11 +221,11 @@ header .navbar ul li a {
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-.home .content h2 {
-  font-size: 5rem;
-  font-weight: 800;
-  color: #002057;
-}
+    .home .content h2 {
+        font-size: 5rem;
+        font-weight: 800;
+        color: #159B8B;
+    }
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
@@ -403,9 +403,9 @@ header .navbar ul li a {
 .about .row .content .box-container .box p {
   text-transform: none;
 }
-.about .row .content .box-container .box p span {
-  color: #F1949C;
-}
+    .about .row .content .box-container .box p span {
+        color: #159B8B;
+    }
 .resumebtn {
   margin-top: 6rem;
 }
@@ -534,8 +534,8 @@ header .navbar ul li a {
 
 /* education section starts */
 .education {
-  background: #d9e6e2;
-  min-height: 80vh;
+    background: #fadee1;
+    min-height: 80vh;
 }
 .education .qoute {
   font-size: 1.5rem;
