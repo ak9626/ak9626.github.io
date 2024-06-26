@@ -927,9 +927,9 @@ header .navbar ul li a {
   }
   .experience .container::before {
     left: 61px;
-    border: medium solid #159B8B;
+    border: medium solid #244855;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #159B8B transparent transparent;
+    border-color: transparent #244855 transparent transparent;
   }
   .experience .left::after {
     left: 15px;
