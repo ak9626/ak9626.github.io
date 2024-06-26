@@ -820,18 +820,18 @@ header .navbar ul li a {
   left: 50%;
 }
 /* arrows pointing right */
-.experience .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #159B8B;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #159B8B;
-}
+    .experience .left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        right: 30px;
+        border: medium solid #244855;
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent #244855;
+    }
 /* arrows pointing left  */
     .experience .right::before {
         content: " ";
