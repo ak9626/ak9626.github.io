@@ -127,7 +127,7 @@ header .navbar ul li a {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #fff;
   display: none;
 }
 @media (max-width: 768px) {
@@ -142,7 +142,7 @@ header .navbar ul li a {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #244855;
   }
   header .navbar ul {
     flex-flow: column;
@@ -476,7 +476,7 @@ header .navbar ul li a {
         color: #fbe9d0;
     }
     .skills .container {
-        background: rgba(36, 72, 85, 0.3);
+        background: rgba(36, 72, 85, 0.2);
         color: #fbe9d0;
         border-radius: 1rem;
         padding: 2rem;
@@ -1225,16 +1225,16 @@ form .button-area {
 
 /* scroll top starts */
 #scroll-top {
-  position: fixed;
-  top: -140%;
-  right: 2rem;
-  padding: 1rem 1.5rem;
-  font-size: 2rem;
-  background: #159B8B;
-  color: rgb(13, 0, 44);
-  border-radius: 50%;
-  transition: 1s linear;
-  z-index: 1000;
+    position: fixed;
+    top: -140%;
+    right: 2rem;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    background: #244855;
+    color: #fff;
+    border-radius: 50%;
+    transition: 1s linear;
+    z-index: 1000;
 }
 #scroll-top.active {
   top: calc(100% - 12rem);
