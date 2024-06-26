@@ -60,18 +60,18 @@ html::-webkit-scrollbar-thumb {
 
 /* navbar starts */
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.7rem 10%;
-  height: 6.5rem;
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 10%;
+    height: 6.5rem;
+    background-color: #244855;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
   min-height: 100vh;
@@ -87,10 +87,10 @@ section {
   color: #F1949C;
 }
 header .logo {
-  font-size: 1.9rem;
-  font-weight: 800;
-  text-decoration: none;
-  color: #0e2431;
+    font-size: 1.9rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
 }
 header .logo i {
   font-size: 2.2rem;
@@ -109,7 +109,7 @@ header .navbar li {
 }
 header .navbar ul li a {
   font-size: 1.57rem;
-  color: #0e2431;
+  color: #fff;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.04rem;
@@ -239,7 +239,7 @@ header .navbar ul li a {
 }
     .home .content p span {
         font-size: 2.5rem;
-        color: #0A4D45;
+        color: #874f41;
         font-weight: 600;
         padding: 1rem 0;
     }
@@ -250,9 +250,9 @@ header .navbar ul li a {
         padding: 1.6rem 3rem;
         border-radius: 4em;
         transition: 0.5s;
-        color: #fff;
-        background: #F1949C;
-        box-shadow: 0px 5px 18px #F1949C;
+        color: #fbe9d0;
+        background: #244855;
+        box-shadow: 0px 5px 18px #244855;
         font-family: "Nunito", sans-serif;
     }
 .home .btn span {
@@ -265,9 +265,9 @@ header .navbar ul li a {
   font-size: 1.5rem;
   transition: 0.3s;
 }
-.home .btn:hover {
-  background: #1a047e;
-}
+        .home .btn:hover {
+            background: #90aead;
+        }
 .home .btn:hover i {
   transform: translateX(5px);
 }
@@ -346,7 +346,10 @@ header .navbar ul li a {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: #fbe9d0;
+}
+.about .heading{
+    color: #874f41;
 }
 .about .row {
   display: flex;
@@ -365,7 +368,6 @@ header .navbar ul li a {
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -404,20 +406,23 @@ header .navbar ul li a {
   text-transform: none;
 }
     .about .row .content .box-container .box p span {
-        color: #159B8B;
+        color: #244855;
     }
-.resumebtn {
-  margin-top: 6rem;
-}
-.resumebtn .btn {
-  padding: 1.7rem 3rem;
-  border-radius: 0.5em;
-  transition: 0.3s;
-  color: #fff;
-  background: #F1949C;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
-}
+    .about .row .content .box-container .box p {
+        color: #244855;
+    }
+    .resumebtn {
+        margin-top: 6rem;
+    }
+    .resumebtn .btn {
+        padding: 1.7rem 3rem;
+        border-radius: 0.5em;
+        transition: 0.3s;
+        color: #874f41;
+        background: #90aead;
+        box-shadow: 0px 5px 10px #90aead;
+        font-family: "Nunito", sans-serif;
+    }
 .resumebtn .btn span {
   font-weight: 600;
   font-size: 1.8rem;
@@ -429,7 +434,8 @@ header .navbar ul li a {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: #244855;
+  color: #fff;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -461,41 +467,42 @@ header .navbar ul li a {
 /* skills section starts */
 .skills {
     min-height: 90vh;
-    background: linear-gradient(to bottom, #159B8B, #004123);
+    background: #e64833;
 }
 .skills h2 {
   color: #fff;
 }
-.skills .heading span {
-  color: #F1949C;
-}
-.skills .container {
-  background: rgba(0, 0, 22, 0.4);
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 90%;
-  margin: auto;
-  margin-top: 2rem;
-}
+    .skills .heading span {
+        color: #fbe9d0;
+    }
+    .skills .container {
+        background: rgba(36, 72, 85, 0.3);
+        color: #fbe9d0;
+        border-radius: 1rem;
+        padding: 2rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+    }
 .skills .container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
-.skills .container .bar {
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
-  transition: 0.2s;
-}
-.skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
-}
+        .skills .container .bar {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 1rem;
+            box-shadow: 0 4px 10px rgba(36, 72, 85, 0.2);
+            background: rgba(36, 72, 85, 0.9);
+            transition: 0.2s;
+        }
+            .skills .container .bar:hover {
+                box-shadow: 0 8px 10px rgba(144, 174, 173, 0.8) !important;
+                background-color: rgba(144, 174, 173, 0.9) !important;
+                color: #244855;
+            }
 .skills .container .bar .info {
   display: flex;
   flex-direction: column;
@@ -534,9 +541,12 @@ header .navbar ul li a {
 
 /* education section starts */
 .education {
-    background: #fadee1;
+    background: #874f41;
     min-height: 80vh;
 }
+    .education .heading {
+        color: #fbe9d0;
+    }
 .education .qoute {
   font-size: 1.5rem;
   text-align: center;
@@ -551,19 +561,19 @@ header .navbar ul li a {
   align-items: center;
   flex-direction: column;
 }
-.education .box-container .box {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  border-radius: 1rem;
-  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  text-align: center;
-  position: relative;
-  margin-top: 2rem;
-  overflow: hidden;
-  transition: 0.3s;
-  background: rgb(252, 252, 252);
-}
+    .education .box-container .box {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        border-radius: 1rem;
+        box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        text-align: center;
+        position: relative;
+        margin-top: 2rem;
+        overflow: hidden;
+        transition: 0.3s;
+        background: #fbe9d0;
+    }
 .education .box-container .box:hover {
   transform: scale(1.03);
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
@@ -760,22 +770,25 @@ header .navbar ul li a {
 /* work section ends */
 
 /* experience section starts */
+.experience {
+    background: #90aead;
+}
 .experience .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-.experience .timeline::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  background: #020133;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-  z-index: -2;
-}
+    .experience .timeline::after {
+        content: "";
+        position: absolute;
+        width: 6px;
+        background: #fbe9d0;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+        z-index: -2;
+    }
 .experience .container {
   padding: 10px 40px;
   position: relative;
@@ -783,23 +796,23 @@ header .navbar ul li a {
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {
-  content: "\f0b1";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #159B8B;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 100;
-  font-size: 1.89rem;
-  text-align: center;
-  font-weight: 600;
-  color: #02094b;
-  font-family: "Font Awesome\ 5 Free";
-}
+    .experience .container::after {
+        content: "\f0b1";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: #fbe9d0;
+        border: 4px solid #e64833;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 100;
+        font-size: 1.89rem;
+        text-align: center;
+        font-weight: 600;
+        color: #02094b;
+        font-family: "Font Awesome\ 5 Free";
+    }
 .experience .left {
   left: 0;
 }
@@ -820,26 +833,30 @@ header .navbar ul li a {
   border-color: transparent transparent transparent #159B8B;
 }
 /* arrows pointing left  */
-.experience .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #159B8B;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #159B8B transparent transparent;
-}
+    .experience .right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 22px;
+        width: 0;
+        z-index: 1;
+        left: 30px;
+        border: medium solid #244855;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #244855 transparent transparent;
+    }
 .experience .right::after {
   left: -16px;
 }
-.experience .content {
-  background-color: #159B8B;
-  position: relative;
-  border-radius: 6px;
-}
+    .experience .heading {
+        color: #244855;
+    }
+    .experience .content {
+        background-color: #244855;
+        position: relative;
+        border-radius: 6px;
+        color:#fbe9d0;
+    }
 .experience .content .tag {
   font-size: 1.3rem;
   padding-top: 1.5rem;
@@ -1091,7 +1108,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: #244855;
 }
 .footer .box-container {
   display: flex;
